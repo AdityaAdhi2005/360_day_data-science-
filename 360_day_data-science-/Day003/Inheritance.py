@@ -2,6 +2,7 @@
 class Animal:# parent 
     def __init__(self, name):
         self.name=name
+   
     def eat(self):
         print(f"{self.name} is eating")  
     
